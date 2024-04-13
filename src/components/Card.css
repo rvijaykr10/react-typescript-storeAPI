@@ -1,0 +1,9 @@
+.Card {
+  display: grid;
+  place-content: center;
+}
+
+.Card p {
+  display: grid;
+  place-content: center;
+}
