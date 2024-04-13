@@ -12,9 +12,9 @@ function Card({ product }: CardProps) {
       <p>
         <img src={product.image} alt={product.title} width="200" height="300" />
       </p>
-      <p>{product.title}</p>
       <p>{product.category}</p>
-      <p>{product.price}</p>
+      <p>{product.title}</p>
+      <p>${product.price}</p>
     </div>
   );
 }

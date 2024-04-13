@@ -1,9 +1,18 @@
 .Card {
   display: grid;
   place-content: center;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 
 .Card p {
   display: grid;
   place-content: center;
+  margin-top: 0.5rem;
+}
+
+.Card p:nth-child(2) {
+  text-transform: capitalize;
+  font-size: 1.5rem;
 }
